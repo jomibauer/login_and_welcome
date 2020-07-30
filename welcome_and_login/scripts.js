@@ -28,6 +28,7 @@ function makeCookie(cookie_title, cookie_val){
     document.cookie = cookie_title + "=" + cookie_val +";path=/";
 }
 
+/* I relied on w3schools for an explanation on cookies -- this function is an only slightly altered version of their getCookie function*/
 function getCookie(cookie_title) {
   var name = cookie_title + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
