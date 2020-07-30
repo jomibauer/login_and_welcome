@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login-page.css">
+    <script defer src="../scripts.js"></script>
+</head>
+<body onload="displayCookie()">
+<h1 id="greeting">
+  Please sign in
+</h1>
+<form id="login-form">
+  <div id="form-group">
+    <label id="input-title" for="username">
+      Username
+      </label><br>
+    <input id="username"
+           type="text"
+           required>
+    </input>
+  </div>
+
+  <div id="form-group">
+    <label id="input-title" for="password">
+      Password
+      </label><br>
+    <input id="password"
+           type="password"
+           required>
+
+    </input>
+  </div>
+  <div id="form-group">
+  <button id="submit-button" type="submit">
+    Login
+    </button>
+</div>
+</form>
+</body>
+</html>
